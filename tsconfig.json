@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "declaration": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "ES6",
+    "sourceMap": true,
+    "lib": ["ES6", "DOM", "ESNext"],
+    "outDir": "./dist",
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*", "README.md", "docs/*"],
+  "exclude": ["node_modules", "**/__tests__/*", "**/__e2e__/*", "**/*.spec.ts"]
+}
