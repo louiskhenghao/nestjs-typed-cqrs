@@ -1,7 +1,7 @@
 {
   "name": "nestjs-typed-cqrs",
   "description": "Typed CQRS for NestJs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "author": "Louis Loo <louiskhenghao@gmail.com> (https://github.com/louiskhenghao)",
   "homepage": "https://github.com/louiskhenghao/nestjs-typed-cqrs#readme",
